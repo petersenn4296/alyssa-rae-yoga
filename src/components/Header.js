@@ -9,7 +9,7 @@ class Header extends Component {
       <div className='navbar-fixed'>
         <nav>
           <div className="nav-wrapper">
-            <a href="#" className="brand-logo"><img height='60' width='150' src={require('../pics/first_copy.png')}/></a>
+            <Link to="/" className="brand-logo"><img height='60' width='150' src={require('../pics/first_copy.png')}/></Link>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to="/about">About</Link></li>
               <li><Link to="/flows">Flows</Link></li>
