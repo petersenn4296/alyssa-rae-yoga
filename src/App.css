@@ -1,3 +1,8 @@
+/* nav bar main color */
 nav {
-  background-color: orange;
+  background-color: grey;
+}
+
+.dad {
+  text-align: right;
 }
